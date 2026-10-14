@@ -15,8 +15,9 @@ post-processing are not yet ported.
 
 ## Run
 
+From this directory:
+
 ```bash
-cd tests/browser
 npm install
 npm run download-models
 npm run serve
@@ -36,9 +37,9 @@ off; its boxes and reading order should be identical. Both WASM and
 WebGPU-with-WASM-fallback can be selected.
 
 The server adds COOP/COEP headers so ONNX Runtime Web can use multithreaded WASM.
-Model files are downloaded into `tests/browser/models/`, which Git ignores.
+Model files are downloaded into `models/`, which Git ignores.
 
-For a quick non-browser WASM graph check:
+For a quick non-browser WASM graph check after downloading the models:
 
 ```bash
 npm test
