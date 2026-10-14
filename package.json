@@ -1,0 +1,13 @@
+{
+  "name": "indra-ocr-browser-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download-models": "node download-models.mjs",
+    "serve": "node server.mjs",
+    "test": "node smoke-node.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-web": "^1.23.2"
+  }
+}

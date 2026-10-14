@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="white"/>
+  <g fill="#111" font-family="Arial, Helvetica, sans-serif">
+    <text x="100" y="130" font-size="58" font-weight="700">Browser OCR Test</text>
+    <text x="100" y="190" font-size="25" fill="#555">Indra ONNX models running locally with ONNX Runtime Web</text>
+    <line x1="100" y1="225" x2="1100" y2="225" stroke="#222" stroke-width="2"/>
+
+    <text x="100" y="300" font-size="34" font-weight="700">1. Private by design</text>
+    <text x="100" y="355" font-size="26">The image stays on this device.</text>
+    <text x="100" y="400" font-size="26">Detection and recognition happen</text>
+    <text x="100" y="445" font-size="26">inside this local browser tab.</text>
+    <text x="100" y="520" font-size="34" font-weight="700">2. Portable execution</text>
+    <text x="100" y="575" font-size="26">WebAssembly provides a reliable</text>
+    <text x="100" y="620" font-size="26">baseline across modern browsers.</text>
+    <text x="100" y="665" font-size="26">WebGPU can accelerate supported</text>
+    <text x="100" y="710" font-size="26">operators when a GPU is available.</text>
+
+    <text x="650" y="300" font-size="34" font-weight="700">3. Structured output</text>
+    <text x="650" y="355" font-size="26">Each recognized line includes a</text>
+    <text x="650" y="400" font-size="26">bounding box and confidence score.</text>
+    <text x="650" y="445" font-size="26">A layout model predicts reading order.</text>
+    <text x="650" y="520" font-size="34" font-weight="700">4. Language support</text>
+    <text x="650" y="575" font-size="26">Latin, Cyrillic, Greek, Devanagari,</text>
+    <text x="650" y="620" font-size="26">Bengali and Chinese print are covered.</text>
+    <text x="650" y="665" font-size="26">Handwriting is not supported yet.</text>
+
+    <rect x="100" y="820" width="1000" height="210" rx="18" fill="#eef3ea" stroke="#222" stroke-width="2"/>
+    <text x="140" y="890" font-size="31" font-weight="700">Expected result</text>
+    <text x="140" y="945" font-size="26">The headings and paragraphs should be detected as separate lines,</text>
+    <text x="140" y="985" font-size="26">then returned in a sensible two-column reading order.</text>
+
+    <text x="100" y="1390" font-size="22" fill="#666">Local browser test • no upload • 14 October 2026</text>
+  </g>
+</svg>
